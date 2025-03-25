@@ -6,6 +6,7 @@ body {
 h1 {
     background-color: darkred;
     color: aliceblue;
+    padding: 1rem;
 }
 p {
     background-color: lightcoral;
@@ -17,4 +18,7 @@ button {
     padding: 1rem;
     background-color: pink;
     border: black solid 2px;
+}
+button:hover {
+    background-color: white;
 }
