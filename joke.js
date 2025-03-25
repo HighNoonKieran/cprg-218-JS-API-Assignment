@@ -2,7 +2,7 @@ fetch("https://v2.jokeapi.dev/joke/any?safe-mode") //Makes a joke on boot up scr
 .then(response => response.json())
 .then(data => {
     console.log(data);
-    jokeCode.textContent = data.joke || data.setup + data.delivery;
+    jokeCode.textContent = data.joke || data.setup + " ... " + data.delivery;
 })
 
 document.getElementById("programming").addEventListener ('click', function() {
